@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
 html {
     box-sizing: border-box; /* To avoid adding extra width to a page when adding padding to any element */
 }
@@ -5,4 +7,41 @@ html {
 body {
     margin: 0; /* 0 on all 4 sides */
     min-height: 100vh; /* VH = viewport height, full height of entire window, always stretch our background to the full height of the screen, even if content isn't enough */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #575757;
+}
+
+.button__container {
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: white;
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #696969, #575757);
+    border: black;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #696969, #575757);
+}
+
+button:active{
+    transform: translateY(3px);
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 6px 6px 0 rgba(0, 0, 0, 0.3);
 }

@@ -1,2 +1,5 @@
-# Clean template
-This is a template for my personal use.
+# Picture in Picture
+This is my experiment with the Picture in Picture API.
+
+Resources used: 
+- Google Fonts - for fonts
